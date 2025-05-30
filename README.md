@@ -21,8 +21,10 @@ setx OPENCV_DIR "C:\opencv\build\x64\vc15"
 setx PATH "%PATH%;%OPENCV_DIR%\bin"
 
 # 设置 ONNX Runtime 环境变量
-setx ONNXRUNTIME_DIR "C:\onnxruntime"
-setx PATH "%PATH%;%ONNXRUNTIME_DIR%\lib"
-## 下载模型参数
+- setx ONNXRUNTIME_DIR "C:\onnxruntime"
+- setx PATH "%PATH%;%ONNXRUNTIME_DIR%\lib"
+
+### 下载模型参数
+
 链接: https://pan.baidu.com/s/1xKNh1jJeX4vjlPN8C2AWgg?pwd=irax 提取码: irax
 下载完成后放进  DeeplabV3ResNet101文件夹内，和Images 同级
